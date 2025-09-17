@@ -1,16 +1,16 @@
 {
   "name": "mern-fly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Setup MERN app with a single command.",
   "main": "index.js",
   "bin": {
     "mern-fly": "./bin/mern-fly.js"
   },
   "files": [
-  "bin/",
-  "boiler/",
-  "index.js"
-],
+    "bin/",
+    "boiler/",
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
