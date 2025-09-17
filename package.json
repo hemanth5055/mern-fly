@@ -1,0 +1,39 @@
+{
+  "name": "mern-fly",
+  "version": "1.0.0",
+  "description": "Setup MERN app with a single command.",
+  "main": "index.js",
+  "bin": {
+    "mern-fly": "./bin/mern-fly.js"
+  },
+  "files": [
+  "bin/",
+  "boiler/",
+  "index.js"
+],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MERN",
+    "CLI",
+    "scaffold",
+    "boilerplate",
+    "generator",
+    "fullstack"
+  ],
+  "type": "module",
+  "preferGlobal": true,
+  "author": "hemanth5055",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemanth5055/mern-fly.git"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "figlet": "^1.9.2",
+    "fs-extra": "^11.3.2",
+    "inquirer": "^12.9.6"
+  }
+}
